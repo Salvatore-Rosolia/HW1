@@ -1,0 +1,117 @@
+
+html{
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #ffce35), color-stop(1, #3b55d9));
+    background-repeat: no-repeat;
+}
+
+#login, #registrazione {
+    display: flex;
+    background-color: whitesmoke;
+    flex-grow: 0;
+    
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 500px;
+    max-height: 70%;
+    min-height: 70%;
+    
+}
+#form_login h2{
+    text-align: center;
+}
+
+#form_login, #form_registrazione{
+    height: 700px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.username, .password{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.remember {
+	display: flex;
+    margin-top: -20%;
+}
+
+input[type=text], input[type=password] {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #ffce35), color-stop(1, #3b55d9));
+    height: 30px;
+    border: white 2px solid;
+    text-decoration: white;
+    border-radius: 4px;
+
+    opacity: 1;
+    font-size: large;
+    color: white;
+}
+
+#see_pass {
+    border: none;
+    background-color: white;
+    background-image: url(occhio_chiuso.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 26px;
+    width: 25px;
+    position:relative;
+    top: -38%;
+    left: 88%;
+    margin: top -25px;
+}
+
+.login {
+    text-align: end;
+    margin-top: 30px;
+}
+form span {
+    opacity: 0;
+}
+
+.error input{
+    border-color: red;
+}
+
+.password span {
+    margin-top: -5%;
+}
+
+
+.error span{
+    opacity: 1;
+    max-width: 300px;
+    font-size: small;
+    color: red;
+}
+
+.start {
+    margin-top: 7%; 
+}
+
+
+
+
